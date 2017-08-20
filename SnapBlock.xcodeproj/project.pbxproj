@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A149CE671F4A3BDA009CBCB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE661F4A3BDA009CBCB5 /* AppDelegate.swift */; };
-		A149CE691F4A3BDA009CBCB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE681F4A3BDA009CBCB5 /* ViewController.swift */; };
 		A149CE6C1F4A3BDA009CBCB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A149CE6A1F4A3BDA009CBCB5 /* Main.storyboard */; };
 		A149CE6E1F4A3BDA009CBCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A149CE6D1F4A3BDA009CBCB5 /* Assets.xcassets */; };
 		A149CE711F4A3BDA009CBCB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A149CE6F1F4A3BDA009CBCB5 /* LaunchScreen.storyboard */; };
 		A149CE7C1F4A3BDA009CBCB5 /* SnapBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE7B1F4A3BDA009CBCB5 /* SnapBlockTests.swift */; };
 		A149CE871F4A3BDA009CBCB5 /* SnapBlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE861F4A3BDA009CBCB5 /* SnapBlockUITests.swift */; };
+		A149CE961F4A3C0C009CBCB5 /* SnapBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE951F4A3C0C009CBCB5 /* SnapBlock.swift */; };
+		A149CE991F4A3C2C009CBCB5 /* SnapBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE981F4A3C2C009CBCB5 /* SnapBlockView.swift */; };
+		A149CE9C1F4A3C78009CBCB5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149CE9B1F4A3C78009CBCB5 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		A149CE631F4A3BDA009CBCB5 /* SnapBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A149CE661F4A3BDA009CBCB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A149CE681F4A3BDA009CBCB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A149CE6B1F4A3BDA009CBCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A149CE6D1F4A3BDA009CBCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A149CE701F4A3BDA009CBCB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		A149CE821F4A3BDA009CBCB5 /* SnapBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A149CE861F4A3BDA009CBCB5 /* SnapBlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapBlockUITests.swift; sourceTree = "<group>"; };
 		A149CE881F4A3BDA009CBCB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A149CE951F4A3C0C009CBCB5 /* SnapBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapBlock.swift; sourceTree = "<group>"; };
+		A149CE981F4A3C2C009CBCB5 /* SnapBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapBlockView.swift; sourceTree = "<group>"; };
+		A149CE9B1F4A3C78009CBCB5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,10 @@
 		A149CE651F4A3BDA009CBCB5 /* SnapBlock */ = {
 			isa = PBXGroup;
 			children = (
-				A149CE661F4A3BDA009CBCB5 /* AppDelegate.swift */,
-				A149CE681F4A3BDA009CBCB5 /* ViewController.swift */,
-				A149CE6A1F4A3BDA009CBCB5 /* Main.storyboard */,
-				A149CE6D1F4A3BDA009CBCB5 /* Assets.xcassets */,
-				A149CE6F1F4A3BDA009CBCB5 /* LaunchScreen.storyboard */,
-				A149CE721F4A3BDA009CBCB5 /* Info.plist */,
+				A149CE9D1F4A3C98009CBCB5 /* Supporting */,
+				A149CE9A1F4A3C3A009CBCB5 /* Controllers */,
+				A149CE971F4A3C1D009CBCB5 /* Views */,
+				A149CE941F4A3BFE009CBCB5 /* Models */,
 			);
 			path = SnapBlock;
 			sourceTree = "<group>";
@@ -123,6 +125,42 @@
 				A149CE881F4A3BDA009CBCB5 /* Info.plist */,
 			);
 			path = SnapBlockUITests;
+			sourceTree = "<group>";
+		};
+		A149CE941F4A3BFE009CBCB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A149CE951F4A3C0C009CBCB5 /* SnapBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A149CE971F4A3C1D009CBCB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A149CE6F1F4A3BDA009CBCB5 /* LaunchScreen.storyboard */,
+				A149CE6A1F4A3BDA009CBCB5 /* Main.storyboard */,
+				A149CE981F4A3C2C009CBCB5 /* SnapBlockView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A149CE9A1F4A3C3A009CBCB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A149CE9B1F4A3C78009CBCB5 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A149CE9D1F4A3C98009CBCB5 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A149CE661F4A3BDA009CBCB5 /* AppDelegate.swift */,
+				A149CE6D1F4A3BDA009CBCB5 /* Assets.xcassets */,
+				A149CE721F4A3BDA009CBCB5 /* Info.plist */,
+			);
+			name = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A149CE691F4A3BDA009CBCB5 /* ViewController.swift in Sources */,
+				A149CE9C1F4A3C78009CBCB5 /* GameViewController.swift in Sources */,
+				A149CE961F4A3C0C009CBCB5 /* SnapBlock.swift in Sources */,
+				A149CE991F4A3C2C009CBCB5 /* SnapBlockView.swift in Sources */,
 				A149CE671F4A3BDA009CBCB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +345,7 @@
 				A149CE6B1F4A3BDA009CBCB5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A149CE6F1F4A3BDA009CBCB5 /* LaunchScreen.storyboard */ = {
@@ -313,6 +354,7 @@
 				A149CE701F4A3BDA009CBCB5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
