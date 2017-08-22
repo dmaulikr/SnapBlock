@@ -9,13 +9,8 @@
 import Foundation
 import UIKit
 
-enum PixelColor: String {
-  case empty
-  case filled
-  case hover
-}
-
 struct Pixel {
+  
   let row: Int
   let col: Int
   var color: PixelColor {
@@ -31,4 +26,10 @@ struct Pixel {
     }
   }
   var view = UIView()
+  
+  enum PixelColor: String {
+    case empty
+    case filled
+    case hover
+  }
 }
